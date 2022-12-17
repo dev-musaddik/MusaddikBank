@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#login_area{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+.header h1{
+    margin:35px;
+}
+.form_section{
+    height: 60vh;
+    width: 80%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: start;
+    box-shadow: 3px 3px 5px 1px rgb(83, 81, 81);
+    border-radius: 5px;
+    padding: 20px;
+    
+
+}
+.form_section .form{
+    display: flex;
+    flex-direction: column;
+}
+.form_section .form h2{
+    margin:5px;
+}
+.form_section .form input,button{
+  margin-bottom: 25px;
+  padding:6px;
+  outline:none;
+}
+.form_section .form button{
+    width:90px;
+    background:rgb(6, 176, 6);
+    color:white;
+    outline:none;
+    border:none;
+}
+#second_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100vh;
+}
+#second_section .first_work{
+    display: flex;
+   
+  justify-content: center;
+  align-items: center;
+}
+#second_section .first_work .row{
+ width:20%;
+
+display: flex;
+flex-direction: column;
+margin:20px;
+padding:10px;
+
+border-radius: 4px;
+  
+}
+#second_section .first_work .row_one{
+    background:rgb(17, 23, 218);
+}
+#second_section .first_work .row_two{
+    background:rgb(1, 170, 255);
+}
+#second_section .first_work .row_three{
+    background:rgb(246, 156, 12)
+}
+#second_section{
+    display:none;
+    
+}
+#second_section .second_work{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+
+}
+#second_section .second_work .row{
+   display:flex;
+   flex-direction: column;
+   margin:1%;
+   box-shadow: 3px 3px 5px 1px rgb(83, 81, 81);
+    border-radius: 5px;
+    background-color: red;
+    padding:20px;
+}
+#second_section .second_work .row input,button{
+    background-color: red;
+    outline: none;
+    margin-bottom: 10px;
+    padding:5px;
+    border:1px solid black;
+   
+}
+#second_section .second_work .row button{
+    width: 100px;
+    background-color: green;
+    border: none;
+}
+
+#second_section .second_work .row_one{
+    width: 40%;
+}
+#second_section .second_work .row_two{
+    width: 40%;
+}
